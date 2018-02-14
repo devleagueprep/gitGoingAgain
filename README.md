@@ -10,7 +10,7 @@
 
 4. There will be updates on the master which will require you to update your local files:
     - `$ git fetch`
-    - `$ git pull
+    - `$ git pull`
 
 
 5. Create a new branch for the project:
