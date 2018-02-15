@@ -19,7 +19,14 @@ This repo will self-destruct in five seconds. Good luck (again)!!*/
 @return {Number}*/
 
 /*Create a function that will loop through 50 numbers and returns the sum of all the odd numbers.*/
-
+function yaoNumbaOne(number){
+	for(var n = 0; n<number.length; n++){
+		if(n%1 === true){
+			return number + odd;
+		}
+	}
+}
+console.log(yaoNumbaOne());
 
 // Mission 3:
 // Team Member: Tyler
