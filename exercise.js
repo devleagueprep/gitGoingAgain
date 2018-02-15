@@ -45,7 +45,7 @@ var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
 var numArr1 = [2, 4, 6];
 var numArr2 = [8, 10, 12];
 function summer(array1, array2){
-	for (var i = 0; i<3; i++){
+	for (var i = 0; i <array1.length && array2.length; i++){
 		console.log(array1[i]+array2[i]);
 	}
 }summer(numArr1, numArr2);
