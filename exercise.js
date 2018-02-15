@@ -55,6 +55,15 @@ var numberArr = [10, 20, 30];
 
 /*Create a function that will take in an array of numbers and returns an array with each element half of its original value.*/
 
+var halfArray = [];
+function half(arr){
+	for(var i = 0; i < arr.length; i++){
+		halfArray.push(arr[i] / 2);
+	}
+	return halfArray;
+}
+
+console.log(half(numberArr));
 
 // Mission 6:
 // Team Member: Ben
