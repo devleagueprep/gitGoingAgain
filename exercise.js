@@ -75,6 +75,21 @@ var nihongo = ["shinjirarenai", "hisashiburi", "otsukaresama", "itadakemasu", "g
 
 /*Create a function that will take in an array of strings (use the nihongo array above) and returns the last element with the letter 'u' replaced with the letter 'o'.*/
 
+function lastElement(arr){
+
+	var lastElement = arr.pop();
+	console.log(lastElement);
+	var elementArray = lastElement.split("");
+	console.log(elementArray);
+
+//	for(var i=0; i<lastElement.length; i++){
+		//console.log(lastElement.charAt(i));
+//	}
+
+}
+lastElement(nihongo);
+
+
 
 // Mission 8:
 // Team Member: Cyrus
