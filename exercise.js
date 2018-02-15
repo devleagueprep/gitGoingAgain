@@ -4,7 +4,7 @@
 This repo will self-destruct in five seconds. Good luck (again)!!*/
 
 // Mission 1: 
-// Team Member:
+// Team Member: Sean
 
 /*@param {String}
 @return {String}*/
@@ -13,7 +13,7 @@ This repo will self-destruct in five seconds. Good luck (again)!!*/
 
 
 // Mission 2: 
-// Team Member: 
+// Team Member: Yao
 
 /*@param {Number}
 @return {Number}*/
@@ -22,7 +22,7 @@ This repo will self-destruct in five seconds. Good luck (again)!!*/
 
 
 // Mission 3:
-// Team Member:
+// Team Member: Tyler
 
 var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
 
@@ -33,7 +33,7 @@ var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
 
 
 // Mission 4:
-// Team Member: 
+// Team Member: Jace
 
 var numArr1 = [2, 4, 6];
 var numArr2 = [8, 10, 12];
@@ -46,7 +46,7 @@ var numArr2 = [8, 10, 12];
 
 
 // Mission 5:
-// Team Member: 
+// Team Member: Reese
 
 var numberArr = [10, 20, 30];
 
@@ -57,7 +57,7 @@ var numberArr = [10, 20, 30];
 
 
 // Mission 6:
-// Team Member: 
+// Team Member: Ben
 
 var nihongo = ["shinjirarenai", "hisashiburi", "otsukaresama", "itadakemasu", "guchisuusama"];
 
@@ -68,7 +68,7 @@ var nihongo = ["shinjirarenai", "hisashiburi", "otsukaresama", "itadakemasu", "g
 
 
 // Mission 7:
-// Team Member: 
+// Team Member: May
 
 /*@param {Array}
 @return {Number}*/
@@ -77,7 +77,7 @@ var nihongo = ["shinjirarenai", "hisashiburi", "otsukaresama", "itadakemasu", "g
 
 
 // Mission 8:
-// Team Member: 
+// Team Member: Cyrus
 
 var num = [1,2,3,4,5,6,8,9,10,12,14,16,18];
 
