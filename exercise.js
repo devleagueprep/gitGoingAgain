@@ -118,7 +118,7 @@ console.log(lengths(nihongo));
 // Team Member: May
 
 /*@param {Array}
-@return {Number}*/
+@return {String}*/
 
 /*Create a function that will take in an array of strings (use the nihongo array above) and returns the last element with the letter 'u' replaced with the letter 'o'.*/
 
