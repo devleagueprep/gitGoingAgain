@@ -118,16 +118,23 @@ console.log(lengths(nihongo));
 function lastElement(arr){
 
 	var lastElement = arr.pop();
-	console.log(lastElement);
-	var elementArray = lastElement.split("");
-	console.log(elementArray);
+	//console.log(lastElement); //string
+	element2 = lastElement.split("");
+	//console.log(element2); //array
+	//console.log(element2.length);
 
-//	for(var i=0; i<lastElement.length; i++){
-		//console.log(lastElement.charAt(i));
-//	}
+	for(var i=0; i<element2.length; i++){
 
+		if(element2[i] === "u"){
+			element2[i] = "o";
+		}
+	}
+
+	var element3 = element2.join('');
+	return element3;
 }
-lastElement(nihongo);
+
+console.log(lastElement(nihongo));
 
 
 
