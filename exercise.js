@@ -11,6 +11,12 @@ This repo will self-destruct in five seconds. Good luck (again)!!*/
 
 /*Create a function that will take in a string input and returns the reverse of that string.*/
 
+//function reverseString[str];{
+//	reverseString.reverse(str);
+//}
+
+//reverse("supercalifragilisticexpialidocious");
+//console.log(reverseString("supercalifragilisticexpialidocious"));
 
 // Mission 2: 
 // Team Member: Yao
