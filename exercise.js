@@ -35,14 +35,20 @@ var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
 // Mission 4:
 // Team Member: Jace
 
-var numArr1 = [2, 4, 6];
-var numArr2 = [8, 10, 12];
+
 
 /*@param {Array}
   @param {Array}
   @return {Number}*/
 
 /*Create a function that will take in two arrays of numbers and returns the sum of both arrays.*/
+var numArr1 = [2, 4, 6];
+var numArr2 = [8, 10, 12];
+function summer(array1, array2){
+	for (var i = 0; i <array1.length && array2.length; i++){
+		console.log(array1[i]+array2[i]);
+	}
+}summer(numArr1, numArr2);
 
 
 // Mission 5:
