@@ -24,25 +24,48 @@ This repo will self-destruct in five seconds. Good luck (again)!!*/
 // Mission 3:
 // Team Member: Tyler
 
-var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
+
 
 /*@param {Array}
 @return {Array}*/
 
 /*Create a function that will iterate through the calendar array and will return an array of all of the elements in a single array.*/
+var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
 
+var combArray = [];
 
+function holiday(arr, newArr){
+
+	for (var i = 0; i < arr.length; i++){
+
+    	for(var k=0; k<arr[i].length; k++) {
+
+			newArr.push(arr[i][k]);
+
+		}
+
+	}
+
+}
+holiday(calendar, combArray);
+console.log(combArray);
 // Mission 4:
 // Team Member: Jace
 
-var numArr1 = [2, 4, 6];
-var numArr2 = [8, 10, 12];
+
 
 /*@param {Array}
   @param {Array}
   @return {Number}*/
 
 /*Create a function that will take in two arrays of numbers and returns the sum of both arrays.*/
+var numArr1 = [2, 4, 6];
+var numArr2 = [8, 10, 12];
+function summer(array1, array2){
+	for (var i = 0; i <array1.length && array2.length; i++){
+		console.log(array1[i]+array2[i]);
+	}
+}summer(numArr1, numArr2);
 
 
 // Mission 5:
@@ -55,6 +78,15 @@ var numberArr = [10, 20, 30];
 
 /*Create a function that will take in an array of numbers and returns an array with each element half of its original value.*/
 
+var halfArray = [];
+function half(arr){
+	for(var i = 0; i < arr.length; i++){
+		halfArray.push(arr[i] / 2);
+	}
+	return halfArray;
+}
+
+console.log(half(numberArr));
 
 // Mission 6:
 // Team Member: Ben
@@ -66,6 +98,14 @@ var nihongo = ["shinjirarenai", "hisashiburi", "otsukaresama", "itadakemasu", "g
 
 /*Create a function that will take in an array of strings and returns an array of string lengths.*/
 
+function lengths(strings){
+	var temp = [];
+	for (i = 0; i < strings.length; i++){
+		temp.push(strings[i].length);
+	}
+	return temp;
+}
+console.log(lengths(nihongo));
 
 // Mission 7:
 // Team Member: May
@@ -100,5 +140,17 @@ var num = [1,2,3,4,5,6,8,9,10,12,14,16,18];
 @return {Number}*/
 
 /*Create a function that will take in an array of numbers and will return the sum of all even numbers below 12.*/
+
+function sum(arr) {
+	var result = 0;
+	for (var i = 0; i < arr.length; i++) {
+		if (arr[i] % 2 === 0 && arr[i] < 12) {
+			result += arr[i];
+		}
+	}
+	return result;
+}
+
+console.log(sum(num));
 
 

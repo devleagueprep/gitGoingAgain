@@ -19,3 +19,5 @@
 5. Open the gitGoingAgain assignment in sublime and write your code in the `exercises.js` file.
 
 6. Don't forget to commit and push your code.
+
+7. Happy Valetine's Day! 
