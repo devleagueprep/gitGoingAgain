@@ -66,6 +66,14 @@ var nihongo = ["shinjirarenai", "hisashiburi", "otsukaresama", "itadakemasu", "g
 
 /*Create a function that will take in an array of strings and returns an array of string lengths.*/
 
+function lengths(strings){
+	var temp = [];
+	for (i = 0; i < strings.length; i++){
+		temp.push(strings[i].length);
+	}
+	return temp;
+}
+console.log(lengths(nihongo));
 
 // Mission 7:
 // Team Member: May
