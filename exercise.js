@@ -127,6 +127,28 @@ console.log(lengths(nihongo));
 
 /*Create a function that will take in an array of strings (use the nihongo array above) and returns the last element with the letter 'u' replaced with the letter 'o'.*/
 
+function lastElement(arr){
+
+	var lastElement = arr.pop();
+	//console.log(lastElement); //string
+	element2 = lastElement.split("");
+	//console.log(element2); //array
+	//console.log(element2.length);
+
+	for(var i=0; i<element2.length; i++){
+
+		if(element2[i] === "u"){
+			element2[i] = "o";
+		}
+	}
+
+	var element3 = element2.join('');
+	return element3;
+}
+
+console.log(lastElement(nihongo));
+
+
 
 // Mission 8:
 // Team Member: Cyrus
