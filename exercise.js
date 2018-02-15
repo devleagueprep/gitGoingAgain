@@ -86,4 +86,16 @@ var num = [1,2,3,4,5,6,8,9,10,12,14,16,18];
 
 /*Create a function that will take in an array of numbers and will return the sum of all even numbers below 12.*/
 
+function sum(arr) {
+	var result = 0;
+	for (var i = 0; i < arr.length; i++) {
+		if (arr[i] % 2 === 0 && arr[i] < 12) {
+			result += arr[i];
+		}
+	}
+	return result;
+}
+
+console.log(sum(num));
+
 
