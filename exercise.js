@@ -24,14 +24,31 @@ This repo will self-destruct in five seconds. Good luck (again)!!*/
 // Mission 3:
 // Team Member: Tyler
 
-var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
+
 
 /*@param {Array}
 @return {Array}*/
 
 /*Create a function that will iterate through the calendar array and will return an array of all of the elements in a single array.*/
+var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
 
+var combArray = [];
 
+function holiday(arr, newArr){
+
+	for (var i = 0; i < arr.length; i++){
+
+    	for(var k=0; k<arr[i].length; k++) {
+
+			newArr.push(arr[i][k]);
+
+		}
+
+	}
+
+}
+holiday(calendar, combArray);
+console.log(combArray);
 // Mission 4:
 // Team Member: Jace
 
