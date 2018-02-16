@@ -22,4 +22,4 @@
 
 7. Happy Valetine's Day! 
 
-8. Happy Aloha Friday!
+8. Aloooooha!
