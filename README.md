@@ -21,3 +21,5 @@
 6. Don't forget to commit and push your code.
 
 7. Happy Valetine's Day! 
+
+8. Happy Aloha Friday!
